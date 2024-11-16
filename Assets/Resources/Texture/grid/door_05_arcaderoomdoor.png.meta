@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: db5028c09781a6f4492742699629db1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6913679639535584575
+    second: door_05_arcaderoomdoor_0
+  - first:
+      213: 7286748874972941706
+    second: door_05_arcaderoomdoor_1
+  - first:
+      213: 6662461762088426840
+    second: door_05_arcaderoomdoor_2
+  - first:
+      213: 5666204991896171455
+    second: door_05_arcaderoomdoor_3
+  - first:
+      213: -8980175938491617672
+    second: door_05_arcaderoomdoor_4
+  - first:
+      213: -3592492676187024651
+    second: door_05_arcaderoomdoor_5
+  - first:
+      213: 6807673008736333675
+    second: door_05_arcaderoomdoor_6
+  - first:
+      213: 4432705475451044426
+    second: door_05_arcaderoomdoor_7
+  - first:
+      213: -4992296127379663195
+    second: door_05_arcaderoomdoor_8
+  - first:
+      213: 2015554237972132793
+    second: door_05_arcaderoomdoor_9
+  - first:
+      213: -5918652318279907384
+    second: door_05_arcaderoomdoor_10
+  - first:
+      213: 1868987634003839972
+    second: door_05_arcaderoomdoor_11
+  - first:
+      213: 7276921557932209838
+    second: door_05_arcaderoomdoor_12
+  - first:
+      213: -3756599253065511263
+    second: door_05_arcaderoomdoor_13
+  - first:
+      213: -2949440031624714491
+    second: door_05_arcaderoomdoor_14
+  - first:
+      213: -8599265664365614054
+    second: door_05_arcaderoomdoor_15
+  - first:
+      213: 127151502123720988
+    second: door_05_arcaderoomdoor_16
+  - first:
+      213: 1775296884475585362
+    second: door_05_arcaderoomdoor_17
+  - first:
+      213: 9206449966819795217
+    second: door_05_arcaderoomdoor_18
+  - first:
+      213: -921754792715085571
+    second: door_05_arcaderoomdoor_19
+  - first:
+      213: 4343102287434996137
+    second: door_05_arcaderoomdoor_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 197
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f358e5d700352ff50800000000000000
+      internalID: 6913679639535584575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 200
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d4d34be7bbf1560800000000000000
+      internalID: 7286748874972941706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 152
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d57e26ca1d57c50800000000000000
+      internalID: 6662461762088426840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 152
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb334865b6762ae40800000000000000
+      internalID: 5666204991896171455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e62bd1091006380800000000000000
+      internalID: -8980175938491617672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 104
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f21ea1e1f6e42ec0800000000000000
+      internalID: -3592492676187024651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 86
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f6eb86886b97e50800000000000000
+      internalID: 6807673008736333675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 86
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42403af422248d30800000000000000
+      internalID: 4432705475451044426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 86
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a61af95f1dc7bab0800000000000000
+      internalID: -4992296127379663195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 86
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3bcdb86efa8fb10800000000000000
+      internalID: 2015554237972132793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c742eb2319bcdda0800000000000000
+      internalID: -5918652318279907384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 70
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb856ec95affe910800000000000000
+      internalID: 1868987634003839972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 70
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea67ee62a91dcf460800000000000000
+      internalID: 7276921557932209838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 31
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae4885f1e0eddbc0800000000000000
+      internalID: -3756599253065511263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 15
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50721b40beb7117d0800000000000000
+      internalID: -2949440031624714491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c264a607549a880800000000000000
+      internalID: -8599265664365614054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 20
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11edb41e9bb3c100800000000000000
+      internalID: 127151502123720988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 31
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253660a4c1f13a810800000000000000
+      internalID: 1775296884475585362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 24
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11163ba8771e3cf70800000000000000
+      internalID: 9206449966819795217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 31
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8143256e44533f0800000000000000
+      internalID: -921754792715085571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_05_arcaderoomdoor_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9dfb9058cc54c30800000000000000
+      internalID: 4343102287434996137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
