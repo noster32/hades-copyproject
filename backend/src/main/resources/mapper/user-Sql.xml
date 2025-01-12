@@ -4,8 +4,8 @@
     <select id="getUser" resultType="UserModel" parameterType="UserModel" statementType="CALLABLE">
         {
             call SP_USER_SELECT(
-                #{userId, mode=IN, jdbcType=NVARCHAR},
-                #{userPw, mode=IN, jdbcType=NVARCHAR}
+                @USER_ID = #{userId, mode=IN, jdbcType=NVARCHAR},
+                @USER_PW = #{userPw, mode=IN, jdbcType=NVARCHAR}
             )
         }
     </select>
