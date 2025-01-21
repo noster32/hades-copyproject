@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 1e5e57785db4af844bd2b16b8eb33583
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2562183820144990780
+    second: boss_083_haunt_0
+  - first:
+      213: -4568486756709243764
+    second: boss_083_haunt_1
+  - first:
+      213: -219413799280035616
+    second: boss_083_haunt_2
+  - first:
+      213: -1125953915117325016
+    second: boss_083_haunt_3
+  - first:
+      213: -4734673309592137041
+    second: boss_083_haunt_4
+  - first:
+      213: 7048288779221140075
+    second: boss_083_haunt_5
+  - first:
+      213: -3395124969958146170
+    second: boss_083_haunt_6
+  - first:
+      213: 6459979243576712488
+    second: boss_083_haunt_7
+  - first:
+      213: 7449040031900394356
+    second: boss_083_haunt_8
+  - first:
+      213: 8535352503177634334
+    second: boss_083_haunt_9
+  - first:
+      213: 7886409207676330422
+    second: boss_083_haunt_10
+  - first:
+      213: 7750039083667729957
+    second: boss_083_haunt_11
+  - first:
+      213: -7645649248607912891
+    second: boss_083_haunt_12
+  - first:
+      213: -7559397760659301028
+    second: boss_083_haunt_13
+  - first:
+      213: -1865053880196143110
+    second: boss_083_haunt_14
+  - first:
+      213: -2559169362588956660
+    second: boss_083_haunt_15
+  - first:
+      213: 8325577990902165645
+    second: boss_083_haunt_16
+  - first:
+      213: 8675951586961830005
+    second: boss_083_haunt_17
+  - first:
+      213: -1337452415197076555
+    second: boss_083_haunt_18
+  - first:
+      213: 22501703616957657
+    second: boss_083_haunt_19
+  - first:
+      213: 6258654334138536630
+    second: boss_083_haunt_20
+  - first:
+      213: 9034240559711541802
+    second: boss_083_haunt_21
+  - first:
+      213: -6250428954909554534
+    second: boss_083_haunt_22
+  - first:
+      213: -2119046372621241717
+    second: boss_083_haunt_23
+  - first:
+      213: 2653166577110217935
+    second: boss_083_haunt_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_083_haunt_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 497
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5210ff36b417cd0800000000000000
+      internalID: -2562183820144990780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 497
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84e449ef797990c0800000000000000
+      internalID: -4568486756709243764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 497
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e83813ef4c74fcf0800000000000000
+      internalID: -219413799280035616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 496
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825b8f731eecf50f0800000000000000
+      internalID: -1125953915117325016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 496
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2dc36d5bf0b4eb0800000000000000
+      internalID: -4734673309592137041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 398
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6209df1d4d80d160800000000000000
+      internalID: 7048288779221140075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 398
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ff595f3d712e0d0800000000000000
+      internalID: -3395124969958146170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 404
+        width: 84
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d59c545e476a950800000000000000
+      internalID: 6459979243576712488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 398
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473661b317e406760800000000000000
+      internalID: 7449040031900394356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 398
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12e4a021e9a37670800000000000000
+      internalID: 8535352503177634334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 298
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1eae0f367227d60800000000000000
+      internalID: 7886409207676330422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 302
+        width: 81
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ea8613c7bad8b60800000000000000
+      internalID: 7750039083667729957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 302
+        width: 81
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c3e7b448235e590800000000000000
+      internalID: -7645649248607912891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 302
+        width: 81
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dd400c9cf971790800000000000000
+      internalID: -7559397760659301028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 208
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7e1ff906ffd16e0800000000000000
+      internalID: -1865053880196143110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 207
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0882d616010c7cd0800000000000000
+      internalID: -2559169362588956660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 205
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80b88962156a8370800000000000000
+      internalID: 8325577990902165645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 209
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570b85d400c276870800000000000000
+      internalID: 8675951586961830005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_18
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 212
+        width: 81
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3a0305d1a607de0800000000000000
+      internalID: -1337452415197076555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 118
+        width: 86
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc0ee22e21ff4000800000000000000
+      internalID: 22501703616957657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 116
+        width: 81
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2594605f43bd650800000000000000
+      internalID: 6258654334138536630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 118
+        width: 86
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a58017ce1106d70800000000000000
+      internalID: 9034240559711541802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 102
+        width: 57
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98ccc05bf30249a0800000000000000
+      internalID: -6250428954909554534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82b4512d82a792e0800000000000000
+      internalID: -2119046372621241717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_083_haunt_24
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 14
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4f79ed1f0f1d420800000000000000
+      internalID: 2653166577110217935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_083_haunt_0: -2562183820144990780
+      boss_083_haunt_1: -4568486756709243764
+      boss_083_haunt_10: 7886409207676330422
+      boss_083_haunt_11: 7750039083667729957
+      boss_083_haunt_12: -7645649248607912891
+      boss_083_haunt_13: -7559397760659301028
+      boss_083_haunt_14: -1865053880196143110
+      boss_083_haunt_15: -2559169362588956660
+      boss_083_haunt_16: 8325577990902165645
+      boss_083_haunt_17: 8675951586961830005
+      boss_083_haunt_18: -1337452415197076555
+      boss_083_haunt_19: 22501703616957657
+      boss_083_haunt_2: -219413799280035616
+      boss_083_haunt_20: 6258654334138536630
+      boss_083_haunt_21: 9034240559711541802
+      boss_083_haunt_22: -6250428954909554534
+      boss_083_haunt_23: -2119046372621241717
+      boss_083_haunt_24: 2653166577110217935
+      boss_083_haunt_3: -1125953915117325016
+      boss_083_haunt_4: -4734673309592137041
+      boss_083_haunt_5: 7048288779221140075
+      boss_083_haunt_6: -3395124969958146170
+      boss_083_haunt_7: 6459979243576712488
+      boss_083_haunt_8: 7449040031900394356
+      boss_083_haunt_9: 8535352503177634334
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
