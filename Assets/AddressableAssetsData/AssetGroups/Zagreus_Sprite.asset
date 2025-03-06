@@ -1,0 +1,1367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Zagreus_Sprite
+  m_EditorClassIdentifier: 
+  m_GroupName: Zagreus_Sprite
+  m_GUID: 03e58670715c6e747b6b608b32287e48
+  m_SerializeEntries:
+  - m_GUID: 0073142566c35d94da025d35c41a08c3
+    m_Address: ZagreusSprite/Empty/Start_Direction_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02734f2045fde6d46952e72f35457183
+    m_Address: ZagreusSprite/Empty/Run_Direction_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 038d640540b14b24f9027d9283c04596
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0541edca33bc47d49bc2c8fceec6282f
+    m_Address: ZagreusSprite/Empty/Idle_Direction_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05a5693f6c764f346a41ca0bf2d30fac
+    m_Address: ZagreusSprite/Empty/Start_Direction_47
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0618c1ff814ab844ab9dbc1c9effe4bf
+    m_Address: ZagreusSprite/Empty/Dash_Direction_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06fb80fea229e684895ae5ddca735d56
+    m_Address: ZagreusSprite/Empty/Stop_Direction_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07c9fdbfed5e31843b917e2c3577f631
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c7dc6dc9689eae4f8cfa19a64d1ce19
+    m_Address: ZagreusSprite/Empty/Start_Direction_62
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 100d224e2fa79da41bf8d89996bc5175
+    m_Address: ZagreusSprite/Empty/Run_Direction_42
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11b81f337a50c494995e2082f35cb2a7
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16c3dfd614be13141a9fc7975e26af9b
+    m_Address: ZagreusSprite/Empty/Dash_Direction_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1980891c1f4ff2645b8366468565e0ae
+    m_Address: ZagreusSprite/Empty/Stop_Direction_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a0537e6b279447408749fe9cd466058
+    m_Address: ZagreusSprite/Empty/Run_Direction_50
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c8cbf4e54097e740a87ec6cc0752eda
+    m_Address: ZagreusSprite/Empty/Start_Direction_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cda2d6dacf9f7a44b5941e8040caa40
+    m_Address: ZagreusSprite/Empty/Run_Direction_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d47c4e769b05b44b888566ef7afda86
+    m_Address: ZagreusSprite/Empty/Run_Direction_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d90caccfe8a1f8489be2dcc3cfbc21d
+    m_Address: ZagreusSprite/Empty/Dash_Direction_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 201415b05676720498fc68e990b61c09
+    m_Address: ZagreusSprite/Empty/Idle_Direction_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 221287daccb16ce408f3b914ac63f2a8
+    m_Address: ZagreusSprite/Empty/Start_Direction_56
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22e6329af0e97fd4eb1f8b3f1569be5d
+    m_Address: ZagreusSprite/Empty/Start_Direction_40
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23eae98bc31a34840bda466579afb70d
+    m_Address: ZagreusSprite/Empty/Start_Direction_31
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 243c88f8596810e4687066bd5b33c97f
+    m_Address: ZagreusSprite/Empty/Start_Direction_44
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24d54bb6c01fad84caba16e685d09517
+    m_Address: ZagreusSprite/Empty/Run_Direction_51
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26e0108a29dbbea41ab46d9a9b3bbc55
+    m_Address: ZagreusSprite/Empty/Idle_Direction_30
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2806393ce520ef3428271c52aa7be4bb
+    m_Address: ZagreusSprite/Empty/Run_Direction_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 289b823816c13824ca81938d0612832a
+    m_Address: ZagreusSprite/Empty/Start_Direction_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29a339ee10d4b864c86993e619343ad6
+    m_Address: ZagreusSprite/Empty/Stop_Direction_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a53223f47c52d4448efed9c372adb47
+    m_Address: ZagreusSprite/Empty/Stop_Direction_30
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ad83e871ecac3c44a197b56e7d9a1fa
+    m_Address: ZagreusSprite/Empty/Run_Direction_52
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b54431cbe5141a4e811a1b7e8fd9cee
+    m_Address: ZagreusSprite/Empty/Start_Direction_52
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b5c5ade0a1ab1646a1f9a2a8a3df7df
+    m_Address: ZagreusSprite/Empty/Run_Direction_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c2be655cd9126540bbde731508e06ac
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2da9e4d9c15896848b5d1d7852d999ad
+    m_Address: ZagreusSprite/Empty/Dash_Direction_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e46adc419c89f04cb92299443a88abe
+    m_Address: ZagreusSprite/Empty/Stop_Direction_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fe1e8d871208a44ca630614dfa8f2bd
+    m_Address: ZagreusSprite/Empty/Idle_Direction_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ff031d39f982964b92d43625516e108
+    m_Address: ZagreusSprite/Empty/Stop_Direction_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 307bfbd32cf65cd438e76242558faf80
+    m_Address: ZagreusSprite/Empty/Stop_Direction_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30cb6583c6b1b654d848110695cf9e5f
+    m_Address: ZagreusSprite/Empty/Start_Direction_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3132be71d449dbf4bb4529d3dd81f92c
+    m_Address: ZagreusSprite/Empty/Stop_Direction_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31b0e069fd29d6644be8d04082b4bcec
+    m_Address: ZagreusSprite/Empty/Start_Direction_35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33b1f57bf78040c449a6f92e25f00cad
+    m_Address: ZagreusSprite/Empty/Idle_Direction_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35d0739c6a1d29a459deb9cbb61ac07d
+    m_Address: ZagreusSprite/Empty/Run_Direction_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3657d0f690b655f468d961894c0b8083
+    m_Address: ZagreusSprite/Empty/Start_Direction_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 380318cf7406f3a42af4cd7ce85bcabd
+    m_Address: ZagreusSprite/Empty/Run_Direction_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3806e601a0915ae46818133c0b437101
+    m_Address: ZagreusSprite/Empty/Stop_Direction_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38d5644e91d27d746a7610514733e7d0
+    m_Address: ZagreusSprite/Empty/Start_Direction_54
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39991dd6fdedea34eb4fd8963bbf1eb0
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39f8c715aa421ef4aa8e0739e985db18
+    m_Address: ZagreusSprite/Empty/Run_Direction_45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a511c47682f6254ea8cf08556e04c5e
+    m_Address: ZagreusSprite/Empty/Run_Direction_40
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a76a9e399f33cc4ab972d9ff847d092
+    m_Address: ZagreusSprite/Empty/Idle_Direction_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ab90aca473ac1b47bc82920dc766c32
+    m_Address: ZagreusSprite/Empty/Stop_Direction_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aef07c615fc122418df06e6bba10e8c
+    m_Address: ZagreusSprite/Empty/Stop_Direction_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c69f1898b0d7544a842208520be4567
+    m_Address: ZagreusSprite/Empty/Start_Direction_61
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cd5e7f0bb4571f4486e598876ec8dd2
+    m_Address: ZagreusSprite/Empty/Stop_Direction_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eb00b01853df024589b8f1b6be36f7e
+    m_Address: ZagreusSprite/Empty/Stop_Direction_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ffff98e4f5152d4dae98dd8e93c13bd
+    m_Address: ZagreusSprite/Empty/Start_Direction_58
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42575d8aeff5fcf4386531a6d58d0108
+    m_Address: ZagreusSprite/Empty/Idle_Direction_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44dbb1500598a2449a80fa336fde8880
+    m_Address: ZagreusSprite/Empty/Stop_Direction_31
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 450136e2e95c70f4e94503b292919fae
+    m_Address: ZagreusSprite/Empty/Run_Direction_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46c19d1070cdbbf4ea8c18f641dcb49e
+    m_Address: ZagreusSprite/Empty/Run_Direction_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49031d796bafd5a4689d03723618d2b6
+    m_Address: ZagreusSprite/Empty/Run_Direction_32
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49a3d82de1b348f499b47d1c57be369a
+    m_Address: ZagreusSprite/Empty/Start_Direction_43
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a200e4e0a984e64b897f8d5b9b26026
+    m_Address: ZagreusSprite/Empty/Stop_Direction_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a648eab5340eee4e9f59b86e3f3f02e
+    m_Address: ZagreusSprite/Empty/Idle_Direction_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c26b84155321c64fa22ff287787bfdc
+    m_Address: ZagreusSprite/Empty/Start_Direction_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e5185e1a32d4f64eb7983ef01d335e8
+    m_Address: ZagreusSprite/Empty/Start_Direction_32
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eb5cd2ec84acc44da6423d6ddfb314c
+    m_Address: ZagreusSprite/Empty/Dash_Direction_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ed5970170977b54ca0914ebb34b1139
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 509d3e28b82fd32439a42cbfc04c2b8e
+    m_Address: ZagreusSprite/Empty/Run_Direction_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5199fb57c7a9ad240850395214ab72eb
+    m_Address: ZagreusSprite/Empty/Start_Direction_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53c1b469be461694d914339b2c503660
+    m_Address: ZagreusSprite/Empty/Stop_Direction_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55f771f96c2cb264d8df4cd0c30e569c
+    m_Address: ZagreusSprite/Empty/Run_Direction_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 568d1c320f506fc4db547a48b21e63e9
+    m_Address: ZagreusSprite/Empty/Start_Direction_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57bc1b96a1d4ab0408a0ebe4639be99e
+    m_Address: ZagreusSprite/Empty/Run_Direction_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57be8931ce2f78540b52d4e9659c4d61
+    m_Address: ZagreusSprite/Empty/Start_Direction_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57c1d3fd970301a4ea83bd2848066e3f
+    m_Address: ZagreusSprite/Empty/Run_Direction_36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58c5a97db409dd6418f5a94bbbb4b12b
+    m_Address: ZagreusSprite/Empty/Run_Direction_35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a495440e4e9d7546a0bf12de4fd4a61
+    m_Address: ZagreusSprite/Empty/Stop_Direction_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a8518a6d2cdc694c9370081c7c879d2
+    m_Address: ZagreusSprite/Empty/Start_Direction_57
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c7f8449e6526b5478b62a8030cdad84
+    m_Address: ZagreusSprite/Empty/Start_Direction_29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d79b0f74f685c24ab84d385a00cfc1e
+    m_Address: ZagreusSprite/Empty/Run_Direction_34
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d9a317d3c92bbd458322725e4dff83f
+    m_Address: ZagreusSprite/Empty/Run_Direction_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 633859da752a85341b1b21ebe0f2c135
+    m_Address: ZagreusSprite/Empty/Run_Direction_44
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 641838e316a1c3048aacf65a3b270310
+    m_Address: ZagreusSprite/Empty/Idle_Direction_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 644608ae91c9e8f4e9025a23ca43ff08
+    m_Address: ZagreusSprite/Empty/Idle_Direction_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64db12d263a807149affef972645cc61
+    m_Address: ZagreusSprite/Empty/Start_Direction_41
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65871c74f5f6f9d4fb71252b22e55552
+    m_Address: ZagreusSprite/Empty/Stop_Direction_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65eda9b0ebfdfc6439f0af215aa99a7c
+    m_Address: ZagreusSprite/Empty/Start_Direction_51
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68aaef0a00423564389a59a65846b33d
+    m_Address: ZagreusSprite/Empty/Run_Direction_62
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69dd92c2c4106b84c8fd28ff95b7a4f4
+    m_Address: ZagreusSprite/Empty/Start_Direction_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a07cc42439ce514192db16cd08f0204
+    m_Address: ZagreusSprite/Empty/Run_Direction_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b013ea22ca5a3248ac1619452cf3223
+    m_Address: ZagreusSprite/Empty/Start_Direction_63
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b10bee01e19b0c4d90ea5a3b0ff8cbf
+    m_Address: ZagreusSprite/Empty/Idle_Direction_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d1f9b6a6cc50fa46b97c73384d09a95
+    m_Address: ZagreusSprite/Empty/Dash_Direction_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d6df15776ff541418543ed5cbc23ed0
+    m_Address: ZagreusSprite/Empty/Start_Direction_38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ff19621377fd674ba460c1677fdf582
+    m_Address: ZagreusSprite/Empty/Run_Direction_59
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7069c6313103f9945929731dcf82396b
+    m_Address: ZagreusSprite/Empty/Run_Direction_38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71780f4f98e14f642b60274e141e08ad
+    m_Address: ZagreusSprite/Empty/Run_Direction_30
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71a5dca50504b454e99aeea34ea3b4c6
+    m_Address: ZagreusSprite/Empty/Run_Direction_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 737cbdadd65cd6943b245a8ce3ecd69b
+    m_Address: ZagreusSprite/Empty/Start_Direction_48
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73a362cdd738f824092628494874e84d
+    m_Address: ZagreusSprite/Empty/Stop_Direction_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75bc137a2df02ac4bb457d9795effbd8
+    m_Address: ZagreusSprite/Empty/Run_Direction_58
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79ba8fbc85941324595e907a159abb6f
+    m_Address: ZagreusSprite/Empty/Idle_Direction_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79ee8a2f285f17247b355e9a3a9a3867
+    m_Address: ZagreusSprite/Empty/Run_Direction_64
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ab5001f1ca304c46a0d09817efc27e2
+    m_Address: ZagreusSprite/Empty/Run_Direction_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c8e7bdfedd476f4aa44885661837d1b
+    m_Address: ZagreusSprite/Empty/Start_Direction_30
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7da89a87ffae7574d8f1abb0c7e0a2af
+    m_Address: ZagreusSprite/Empty/Dash_Direction_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ec96d1c40dd11b46a745e9d90793063
+    m_Address: ZagreusSprite/Empty/Run_Direction_63
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f2b69e3ea00e674190cc06716094dd8
+    m_Address: ZagreusSprite/Empty/Idle_Direction_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80154f5774d46de48a5bf2ce81fffb78
+    m_Address: ZagreusSprite/Empty/Start_Direction_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 807927a466e0d134fb84ecddeebe9ae3
+    m_Address: ZagreusSprite/Empty/Run_Direction_37
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 812ff4f23d721f449a2cefa59466e7b5
+    m_Address: ZagreusSprite/Empty/Idle_Direction_29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8443216a1723da2408e5faea5551948f
+    m_Address: ZagreusSprite/Empty/Run_Direction_43
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 851001cda1324864eb8850973948c48e
+    m_Address: ZagreusSprite/Empty/Run_Direction_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 862e01591d70a7047b8a9a836c4e32f8
+    m_Address: ZagreusSprite/Empty/Idle_Direction_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 872c611712571fc4f80ed6c09c2a7334
+    m_Address: ZagreusSprite/Empty/Stop_Direction_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8827ab3788fe3f34eb4eebe2d919aebb
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a48ce0109a65804d8adbe52c1d85ca0
+    m_Address: ZagreusSprite/Empty/Run_Direction_56
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8adfbf627f3041240936e5c08556df60
+    m_Address: ZagreusSprite/Empty/Stop_Direction_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ce71e1dfdf2a1b4e9524ead6a883610
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d01f623d380def45a93d3cc2ff8c6c0
+    m_Address: ZagreusSprite/Empty/Idle_Direction_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8de53b297744fc944925d16099058b69
+    m_Address: ZagreusSprite/Empty/Dash_Direction_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ea776d6d8eb10748a777b44ac167835
+    m_Address: ZagreusSprite/Empty/Idle_Direction_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ea7a4abd4cfd73409ecc389f6ec5984
+    m_Address: ZagreusSprite/Empty/Start_Direction_39
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 903f26639cf706a44b23480041a4b1be
+    m_Address: ZagreusSprite/Empty/Run_Direction_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90b9eb236e9357b4399a97e3df7c3a8b
+    m_Address: ZagreusSprite/Empty/Dash_Direction_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9544a75ec0c1abb41af5a41e62482ee4
+    m_Address: ZagreusSprite/Empty/Run_Direction_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 963e9d844ba087543828b46045c31856
+    m_Address: ZagreusSprite/Empty/Start_Direction_42
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 964c01456d1cf5246b67d63ae69faefc
+    m_Address: ZagreusSprite/Empty/Dash_Direction_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 969094ce9438ae94b88f2590b433856e
+    m_Address: ZagreusSprite/Empty/Start_Direction_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 971b423531f146e4ea366e2242aaa3a6
+    m_Address: ZagreusSprite/Empty/Start_Direction_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 976d8ea010bd06b4da063271a270865e
+    m_Address: ZagreusSprite/Empty/Start_Direction_50
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98063406132b25c4faca6809c533941f
+    m_Address: ZagreusSprite/Empty/Stop_Direction_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9807729593fdd3549b320ed69d3adfe2
+    m_Address: ZagreusSprite/Empty/Run_Direction_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99602cd7a7f83ef489d988c5178dc11c
+    m_Address: ZagreusSprite/Empty/Start_Direction_45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99dafee86e8fe26418bb04fa3b62b923
+    m_Address: ZagreusSprite/Empty/Dash_Direction_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c6311319e2918242b6adbeaad013def
+    m_Address: ZagreusSprite/Empty/Idle_Direction_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ec95b96051b1cd419ebbac8547db87f
+    m_Address: ZagreusSprite/Empty/Run_Direction_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1f0a4d459cf23941b99b9fd4de1262a
+    m_Address: ZagreusSprite/Empty/Run_Direction_46
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2060b7f0c5c11b43bbe7e78358cb547
+    m_Address: ZagreusSprite/Empty/Dash_Direction_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a269ecb8decd5704e8cf988cbf93d0b4
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a289e53ab8536724696e74f6e9c0b153
+    m_Address: ZagreusSprite/Empty/Start_Direction_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3f2b08b09a51d14d9619a23cd7ef02e
+    m_Address: ZagreusSprite/Empty/Run_Direction_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5ebed2d4fb4a5d42bc71997d6d83523
+    m_Address: ZagreusSprite/Empty/Start_Direction_36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a72e64c250a31d4478615f4fecf9b5af
+    m_Address: ZagreusSprite/Empty/Start_Direction_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a832763e34910b74480a9ad95150ca8e
+    m_Address: ZagreusSprite/Empty/Run_Direction_60
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8c320fb293234242bcd5414de4cd78c
+    m_Address: ZagreusSprite/Empty/Idle_Direction_32
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9c737ea727b0674bb6bbbb9b4b528f4
+    m_Address: ZagreusSprite/Empty/Stop_Direction_32
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9ff65fdfa0ac7141933d93931635223
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa47b842af5d49e43827574411710f4b
+    m_Address: ZagreusSprite/Empty/Idle_Direction_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa613f8ad852e514daa3e86b41bc2e76
+    m_Address: ZagreusSprite/Empty/Run_Direction_41
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab4ace19610e4124b8ad4e2c15a9d2d7
+    m_Address: ZagreusSprite/Empty/Idle_Direction_31
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acbca3254939f1a4d95baff576e77fa3
+    m_Address: ZagreusSprite/Empty/Run_Direction_29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afa309ce50bf56f4eb34e8cdb0434170
+    m_Address: ZagreusSprite/Empty/Run_Direction_47
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b22cd3701ccd81a499b032d27806987f
+    m_Address: ZagreusSprite/Empty/Start_Direction_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2a172be498eb434a86bad73371ca5d6
+    m_Address: ZagreusSprite/Empty/Start_Direction_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b652f6c08faaa0f41baa2c2ed71f9abd
+    m_Address: ZagreusSprite/Empty/Start_Direction_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6b0ee3c88d3a18458ea68b53f6861d7
+    m_Address: ZagreusSprite/Empty/Start_Direction_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7ec450eb3902cc46a085ed456be0c80
+    m_Address: ZagreusSprite/Empty/Start_Direction_64
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9d6e36d227f5f64db3b473fe9b02c73
+    m_Address: ZagreusSprite/Empty/Start_Direction_37
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb628cbbc653d2d4ca472b56915a09b8
+    m_Address: ZagreusSprite/Empty/Run_Direction_31
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb897fc14f7353544b1511711be7553d
+    m_Address: ZagreusSprite/Empty/Idle_Direction_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdc4daeee58185449a2137d569fa2cc4
+    m_Address: ZagreusSprite/Empty/Idle_Direction_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bde8231038ecbbf44aa02572a2c552b0
+    m_Address: ZagreusSprite/Empty/Run_Direction_61
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c15fffc6577df91428d2884629cb9381
+    m_Address: ZagreusSprite/Empty/Run_Direction_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c280d7c378316e74db2050b4d67002b7
+    m_Address: ZagreusSprite/Empty/Start_Direction_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c28983e8d72ae1c4bbb5779ed5165055
+    m_Address: ZagreusSprite/Empty/Start_Direction_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c28e36bc8fed9e442a682d545828aa86
+    m_Address: ZagreusSprite/Empty/Run_Direction_53
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3dc1788297e53744a4a9511ae5af9ff
+    m_Address: ZagreusSprite/Empty/Idle_Direction_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4860340c833bc746a88a72b764a3457
+    m_Address: ZagreusSprite/Empty/Dash_Direction_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c56369d0dcc99f6489973c0d61f59d28
+    m_Address: ZagreusSprite/Empty/Run_Direction_55
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c881a6ff446419f48ab477ce19d0d1b2
+    m_Address: ZagreusSprite/Empty/Run_Direction_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8ab9f501613f744e838f1da4a3d6581
+    m_Address: ZagreusSprite/Empty/Start_Direction_46
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caa8c55df2cc11c4e9cce7344679e3fe
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caf3e5ed7fb9b3d45b1cbc81ef0d89b2
+    m_Address: ZagreusSprite/Empty/Idle_Direction_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc931a2c16283994db72ca3e7bd99909
+    m_Address: ZagreusSprite/Empty/Start_Direction_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd8461a7e3eb31f49a9f94016b026074
+    m_Address: ZagreusSprite/Empty/Start_Direction_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce1da3fb3e1343f48930f30c6a394ce5
+    m_Address: ZagreusSprite/Empty/Run_Direction_54
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce39ea2888139d04dbaf827b25f45522
+    m_Address: ZagreusSprite/Empty/Start_Direction_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cea13170265aa564e99f59d4cd01b76f
+    m_Address: ZagreusSprite/Empty/Start_Direction_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf096c167bc18904f9f7cba65a0f6f6d
+    m_Address: ZagreusSprite/Empty/Dash_Direction_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf2d7dccb52bec142beb1ba51bf512a9
+    m_Address: ZagreusSprite/Empty/Idle_Direction_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfe1955763fe059438a60cbd11dae81e
+    m_Address: ZagreusSprite/Empty/Dash_Direction_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d39fdb53743a42a4dbb28c8b19948402
+    m_Address: ZagreusSprite/Empty/Stop_Direction_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d56febfa93481634eba760467c76378c
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5ab34bb2c90efb46b0eb37e9edaa94a
+    m_Address: ZagreusSprite/Empty/Start_Direction_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8a655bfb9b9a374eaeb08f03830c507
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9515663b87659048b220d055e49ded7
+    m_Address: ZagreusSprite/Empty/Start_Direction_55
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbd17c32f5b1c0840a0d3f40ebf0fd59
+    m_Address: ZagreusSprite/Empty/Stop_Direction_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc21534e1563d9342ba46c5d6fa935de
+    m_Address: ZagreusSprite/Empty/Stop_Direction_29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df4c8899fa5926b4e8da93ace4b69b32
+    m_Address: ZagreusSprite/Empty/Start_Direction_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e270c34f8fed19a41a527b543db568cd
+    m_Address: ZagreusSprite/Empty/Run_Direction_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2dd9bcde7c2acb4db2cb1642a68063e
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e339095143cd685438e816238e82c7f4
+    m_Address: ZagreusSprite/Empty/Run_Direction_48
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3fd5aff30c90e648881da0790041a4f
+    m_Address: ZagreusSprite/Empty/Stop_Direction_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e66f5b9fcda43e149a3d30627c947301
+    m_Address: ZagreusSprite/Empty/Start_Direction_34
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6ffb2ae0907165448bd15f1fd28d415
+    m_Address: ZagreusSprite/Empty/Stop_Direction_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7ac3bb03d7a5fb47aa381bfa6a9a08d
+    m_Address: ZagreusSprite/Empty/Stop_Direction_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e80f87aea89c32148b3ccee40489e253
+    m_Address: ZagreusSprite/Empty/Start_Direction_53
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e837af9aa1946d542b895ac68247baf4
+    m_Address: ZagreusSprite/Empty/Start_Direction_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e88a99ad312e62c4cbc6a27f6ebbaaf0
+    m_Address: ZagreusSprite/Empty/Stop_Direction_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9ca94070f8ad534880ef88a831a8e4e
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb47a3f6ef7f02f45a15238341ee17fe
+    m_Address: ZagreusSprite/Empty/Run_Direction_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebc3625f9e6ddb94fa207974e121a8ea
+    m_Address: ZagreusSprite/Empty/Run_Direction_39
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebd1b8a0a07ba7d46b4572570b6cb29f
+    m_Address: ZagreusSprite/Empty/Start_Direction_60
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee2d00d0b75af5d4f9213033954fd633
+    m_Address: ZagreusSprite/Empty/Run_Direction_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f080fa258cd1e3a4cba04f1932a8ff32
+    m_Address: ZagreusSprite/Empty/DashVFX_Direction_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1d353f58a47d2f43b39d70786b21272
+    m_Address: ZagreusSprite/Empty/Idle_Direction_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2f2389ca6e388c4aadda9a8c3a93ad3
+    m_Address: ZagreusSprite/Empty/Run_Direction_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3f040d5739228b49a67c2e36c1f2bc7
+    m_Address: ZagreusSprite/Empty/Dash_Direction_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3f14f0a3331c0d46a4be8f4696f09f0
+    m_Address: ZagreusSprite/Empty/Run_Direction_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6822cf5578bf6d47b65e479bcfc847f
+    m_Address: ZagreusSprite/Empty/Run_Direction_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f79558c3a5ba08d4bb2c5da9224face8
+    m_Address: ZagreusSprite/Empty/Idle_Direction_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f82a7f30bb788b048b42a6f05c49d324
+    m_Address: ZagreusSprite/Empty/Start_Direction_59
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f92d435aff080d0499053fa12e7ecb01
+    m_Address: ZagreusSprite/Empty/Run_Direction_57
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f97fee921ac6fe048ae2e21ffa67251d
+    m_Address: ZagreusSprite/Empty/Idle_Direction_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa2773a24c5b17247b298480652a5ae0
+    m_Address: ZagreusSprite/Empty/Stop_Direction_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa2f606e665e6ca40a6884a62e2ec690
+    m_Address: ZagreusSprite/Empty/Idle_Direction_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbb820616bac190498c544af272077ad
+    m_Address: ZagreusSprite/Empty/Idle_Direction_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc153a89ae4907a46a85e35316ca854d
+    m_Address: ZagreusSprite/Empty/Start_Direction_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc3fe04fee5068a41ae9e7bbf6775dae
+    m_Address: ZagreusSprite/Empty/Idle_Direction_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe24824c215d18b499a65c2a65cca720
+    m_Address: ZagreusSprite/Empty/Start_Direction_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff583f716cfffbe45ad1ba523e2fac98
+    m_Address: ZagreusSprite/Empty/Stop_Direction_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Empty
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1c3478a25aa860c4aa4e91f25fea94ed, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dddb0700b4bb2a043bf93294cac3058e, type: 2}
+    - {fileID: 11400000, guid: bbab6b5f9b2b8e44598029040b1929e9, type: 2}
