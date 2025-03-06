@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 543e8fee00d4e3746b8b23ca308cceb1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7cdcb99d94d8842abbb955416385cc
+      internalID: 280748696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1920
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5175e82409a8cfb458ae7b372daf656b
+      internalID: 692935354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_2
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1920
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09ed3747311b2b4691747f2b310e769
+      internalID: 2050673101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_3
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1920
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f8203934908b4499f4fe394051bae
+      internalID: 525722245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_4
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1920
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5565d3156364bbd42a52d37e7a5c4f9c
+      internalID: -392780574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3db87cbecc7834db5de53c71820fd4
+      internalID: 1590635767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1440
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e585ad4bcbe12584e92df05462f3ed54
+      internalID: -1054784614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1440
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aea406a34306c44a34cddff77bb02c
+      internalID: -1454987266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_8
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1440
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5611ba125ecb2e14dbdc20890cf2f904
+      internalID: -937222795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_9
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1440
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4793171275370f4a90c41c3c0ba3f7e
+      internalID: 890269611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e99f52d23fadff42b9de50999406b53
+      internalID: 1411641534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051ec66a2d55de7469660a9cf12fbb32
+      internalID: 1433913795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_12
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13267dba76be604b8f6e8cc8c49b68e
+      internalID: -1863576593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_13
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 960
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6387c4bc2f4c054da431156761ee776
+      internalID: 841786036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 960
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f2e77dd6ed5f846a9bec5035f27baf
+      internalID: 1731952521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1de8fccd6c4f94f96571c6e40c59c6
+      internalID: -194485122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ee4a4fcedeaa7488c4dc16b9054aca
+      internalID: -205244200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 480
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd25f1024cbf4f498b6f77516013a66
+      internalID: 220664237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_18
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 480
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f20f33ed42b0114abdf51893dbeabe3
+      internalID: 1225712212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_19
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 480
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a1ee2b9783d024f92e20801728af18
+      internalID: -1888401514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2227786f9aa57ba479ba0088769eb160
+      internalID: -1152482297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ccd5bd8801ed7499fbb535b73f6286
+      internalID: 369507823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bd1572d48e3d042ba75c4d70bf8df4
+      internalID: 2133477427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_23
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa68d95640b6214a9094d6c1b30cd47
+      internalID: 1132509419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordReturnToIdle_sprite_14_4_24
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a210a11dfffa7ec448be389b09871f8b
+      internalID: -1327030775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c0bfe1552cadaa946884a55b4f177669
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZagreusSwordReturnToIdle_sprite_14_4_0: 280748696
+      ZagreusSwordReturnToIdle_sprite_14_4_1: 692935354
+      ZagreusSwordReturnToIdle_sprite_14_4_10: 1411641534
+      ZagreusSwordReturnToIdle_sprite_14_4_11: 1433913795
+      ZagreusSwordReturnToIdle_sprite_14_4_12: -1863576593
+      ZagreusSwordReturnToIdle_sprite_14_4_13: 841786036
+      ZagreusSwordReturnToIdle_sprite_14_4_14: 1731952521
+      ZagreusSwordReturnToIdle_sprite_14_4_15: -194485122
+      ZagreusSwordReturnToIdle_sprite_14_4_16: -205244200
+      ZagreusSwordReturnToIdle_sprite_14_4_17: 220664237
+      ZagreusSwordReturnToIdle_sprite_14_4_18: 1225712212
+      ZagreusSwordReturnToIdle_sprite_14_4_19: -1888401514
+      ZagreusSwordReturnToIdle_sprite_14_4_2: 2050673101
+      ZagreusSwordReturnToIdle_sprite_14_4_20: -1152482297
+      ZagreusSwordReturnToIdle_sprite_14_4_21: 369507823
+      ZagreusSwordReturnToIdle_sprite_14_4_22: 2133477427
+      ZagreusSwordReturnToIdle_sprite_14_4_23: 1132509419
+      ZagreusSwordReturnToIdle_sprite_14_4_24: -1327030775
+      ZagreusSwordReturnToIdle_sprite_14_4_3: 525722245
+      ZagreusSwordReturnToIdle_sprite_14_4_4: -392780574
+      ZagreusSwordReturnToIdle_sprite_14_4_5: 1590635767
+      ZagreusSwordReturnToIdle_sprite_14_4_6: -1054784614
+      ZagreusSwordReturnToIdle_sprite_14_4_7: -1454987266
+      ZagreusSwordReturnToIdle_sprite_14_4_8: -937222795
+      ZagreusSwordReturnToIdle_sprite_14_4_9: 890269611
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

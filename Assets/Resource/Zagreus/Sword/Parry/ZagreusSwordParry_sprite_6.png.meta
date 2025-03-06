@@ -1,0 +1,1543 @@
+fileFormatVersion: 2
+guid: 51e7f17e0a3213744a97c9c07bfe9862
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3136
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c7fd5afa6233a488d54890a57adaea
+      internalID: -1621446193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3136
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1456a3ed941debc4eac39975181c2b13
+      internalID: -781244973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3136
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15af74a0ea04144b8744690bb3418a9
+      internalID: 1001528599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3136
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c29dff2d2bbd4438586acedff9575e
+      internalID: 1592604782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3136
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4563461a35d85234c8fcc1cab951366c
+      internalID: 340702944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3136
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa8472ffbe0c84189e57112cd9b10d
+      internalID: -1243062100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_6
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3136
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476219f4c1b694243b33f5a76eda8816
+      internalID: -1814736311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_7
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3136
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0234fdb5c1649f4da5ef02ad6ad3436
+      internalID: 1035662030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f0c20ddbc43f94eada1656a6cd9984
+      internalID: -1775076795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2688
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec2c83ec5f967542a33a3b9427db70b
+      internalID: -892302810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2688
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db18a4da943235d41b52472fb40d43ff
+      internalID: 2055280102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_11
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2688
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199d8801cdaa3b842ad3e09e07d03543
+      internalID: 1569890451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2688
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fefbd70115244a4c95244266eb6605c
+      internalID: 40764595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2688
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2238e72d103e7014aa413d27fc4d8973
+      internalID: 796153886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_14
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2688
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc217e91ce7e8c488a69c728b14b496
+      internalID: 1561468553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_15
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2688
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d646d56428ccc24fbdfbaaa994bbbcf
+      internalID: -1317480724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67677545e5b76046b5baf5a5c03508a
+      internalID: -383349428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2240
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29667ff3fd9fe3444b2b89a754757e15
+      internalID: -273642108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2240
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af84a7c8657c06746a88f7c1fa98e1d8
+      internalID: 289478437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2240
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fdd07f3e23d7e48a8f797ffcc1bcef
+      internalID: 1891657077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2240
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5a98a862e565041a84a09c91c3338e
+      internalID: -64592385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_21
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2240
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f51e709e8c1afe4a98817a6118eed45
+      internalID: 1565058756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_22
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2240
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bef5ff1bcdb184b8f40db1b97d3b82
+      internalID: 987020395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_23
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2240
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e09cf19f0d8d014bbb2bde3f5bb12be
+      internalID: 256689768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf23948e9a12b047b250f40ba53e3db
+      internalID: -692778769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90341df9473c514388880a76c717077
+      internalID: 912632298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca49fa90fb760b44db10bf25d4486811
+      internalID: -562093025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_27
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1792
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a278e925d9a5eb94187b14e3a1581315
+      internalID: 759211024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1792
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3380e6295c6034591bded9402d3649
+      internalID: 915671731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1792
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90a0f997e7785b49aa4ba2edaa7c7b3
+      internalID: -551941949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_30
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1792
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0198927565bab1479a691575c456ed8
+      internalID: -1223585696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_31
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1792
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b966a6cf6ef92d24a8f4156e52e269cc
+      internalID: -1347490298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd67e1e2f8df71a4d848492ae9bd41df
+      internalID: -1077671076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd976d1034174c46b5802e142f9a31e
+      internalID: 1692981021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1344
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bd3e326b719c94492c7fc223c5ce6f
+      internalID: 862809727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_35
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1344
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273dbcf191d1d494a92e6bcde4faee4b
+      internalID: -1806351353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_36
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1344
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75a1e58e71b1854b86fcd2cd46bfc33
+      internalID: 295078647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_37
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1344
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe4cdcd8024f5947a3de7ec44dd9186
+      internalID: 647352252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_38
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1344
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a355fd464d38749ba5fb9948e78bf2
+      internalID: 538559684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_39
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1344
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317eed7a8803c5848bdcb60afa4aac3d
+      internalID: -1931582368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1998ffa57953e814f98df93b92b83bec
+      internalID: 1079056656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ae9bbc858716945b7e0c0f23354b0b
+      internalID: -445202203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f22cf6e72d7f994cae89823c588e8a7
+      internalID: -1390941894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_43
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2f12575ca117744a1a1ace1e781e87
+      internalID: -1684430754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_44
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53bff314bf898247a35145f17c13521
+      internalID: -509157991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_45
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 896
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d451b0a549714564c8d2999c67f3b554
+      internalID: -2112047321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_46
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 896
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec6b8728084fba47ae42b02e1f796d7
+      internalID: -1423410055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_47
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 896
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e41b8f0867a8204aac2c501066a6edc
+      internalID: -670397543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfdc1f8188f6f241a1e631fb7e6a8ac
+      internalID: -1827523222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778f55e67af5ea04cb5b6fd564ed6c06
+      internalID: -669413690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826546b928b25c34a8eb5261bab93438
+      internalID: -352682429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_51
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 448
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f391924edd6744ea20ce2a8559164a
+      internalID: 392660420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_52
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 448
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3645bb93b8640404eba03f08c92c06e0
+      internalID: 1431580966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_53
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 448
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476c5f5adfb432340b5c28ca563f8d84
+      internalID: -1872769772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_54
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 448
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba4b99e98e27c042ba4cd108f7ad25f
+      internalID: 1039299482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_55
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 448
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f46921384d64d14fbcb14f2d1c37ea0
+      internalID: -172000923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcae2411ba6c1b4a95fcf1a24ebde4a
+      internalID: 844934189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94ed2c7e4ce99843a2d891efdcc13d7
+      internalID: 17091482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa094183a2627641828505bb590ff94
+      internalID: 825667454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_59
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bf2432f9e7eb14cac70f0275ed4792
+      internalID: 1481810638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955ad6b5c0835b34cb17ab33308a8bc8
+      internalID: 552569398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZagreusSwordParry_sprite_6_61
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75eb0a632a77e24fa047c5457787e33
+      internalID: 185708393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 24ece471042abca4ba7fcbba1170b26d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZagreusSwordParry_sprite_6_0: -1621446193
+      ZagreusSwordParry_sprite_6_1: -781244973
+      ZagreusSwordParry_sprite_6_10: 2055280102
+      ZagreusSwordParry_sprite_6_11: 1569890451
+      ZagreusSwordParry_sprite_6_12: 40764595
+      ZagreusSwordParry_sprite_6_13: 796153886
+      ZagreusSwordParry_sprite_6_14: 1561468553
+      ZagreusSwordParry_sprite_6_15: -1317480724
+      ZagreusSwordParry_sprite_6_16: -383349428
+      ZagreusSwordParry_sprite_6_17: -273642108
+      ZagreusSwordParry_sprite_6_18: 289478437
+      ZagreusSwordParry_sprite_6_19: 1891657077
+      ZagreusSwordParry_sprite_6_2: 1001528599
+      ZagreusSwordParry_sprite_6_20: -64592385
+      ZagreusSwordParry_sprite_6_21: 1565058756
+      ZagreusSwordParry_sprite_6_22: 987020395
+      ZagreusSwordParry_sprite_6_23: 256689768
+      ZagreusSwordParry_sprite_6_24: -692778769
+      ZagreusSwordParry_sprite_6_25: 912632298
+      ZagreusSwordParry_sprite_6_26: -562093025
+      ZagreusSwordParry_sprite_6_27: 759211024
+      ZagreusSwordParry_sprite_6_28: 915671731
+      ZagreusSwordParry_sprite_6_29: -551941949
+      ZagreusSwordParry_sprite_6_3: 1592604782
+      ZagreusSwordParry_sprite_6_30: -1223585696
+      ZagreusSwordParry_sprite_6_31: -1347490298
+      ZagreusSwordParry_sprite_6_32: -1077671076
+      ZagreusSwordParry_sprite_6_33: 1692981021
+      ZagreusSwordParry_sprite_6_34: 862809727
+      ZagreusSwordParry_sprite_6_35: -1806351353
+      ZagreusSwordParry_sprite_6_36: 295078647
+      ZagreusSwordParry_sprite_6_37: 647352252
+      ZagreusSwordParry_sprite_6_38: 538559684
+      ZagreusSwordParry_sprite_6_39: -1931582368
+      ZagreusSwordParry_sprite_6_4: 340702944
+      ZagreusSwordParry_sprite_6_40: 1079056656
+      ZagreusSwordParry_sprite_6_41: -445202203
+      ZagreusSwordParry_sprite_6_42: -1390941894
+      ZagreusSwordParry_sprite_6_43: -1684430754
+      ZagreusSwordParry_sprite_6_44: -509157991
+      ZagreusSwordParry_sprite_6_45: -2112047321
+      ZagreusSwordParry_sprite_6_46: -1423410055
+      ZagreusSwordParry_sprite_6_47: -670397543
+      ZagreusSwordParry_sprite_6_48: -1827523222
+      ZagreusSwordParry_sprite_6_49: -669413690
+      ZagreusSwordParry_sprite_6_5: -1243062100
+      ZagreusSwordParry_sprite_6_50: -352682429
+      ZagreusSwordParry_sprite_6_51: 392660420
+      ZagreusSwordParry_sprite_6_52: 1431580966
+      ZagreusSwordParry_sprite_6_53: -1872769772
+      ZagreusSwordParry_sprite_6_54: 1039299482
+      ZagreusSwordParry_sprite_6_55: -172000923
+      ZagreusSwordParry_sprite_6_56: 844934189
+      ZagreusSwordParry_sprite_6_57: 17091482
+      ZagreusSwordParry_sprite_6_58: 825667454
+      ZagreusSwordParry_sprite_6_59: 1481810638
+      ZagreusSwordParry_sprite_6_6: -1814736311
+      ZagreusSwordParry_sprite_6_60: 552569398
+      ZagreusSwordParry_sprite_6_61: 185708393
+      ZagreusSwordParry_sprite_6_7: 1035662030
+      ZagreusSwordParry_sprite_6_8: -1775076795
+      ZagreusSwordParry_sprite_6_9: -892302810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
