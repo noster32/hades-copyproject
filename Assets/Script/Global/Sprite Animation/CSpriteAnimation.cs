@@ -2,48 +2,58 @@ using Cysharp.Threading.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class CSpriteAnimation : MonoBehaviour
 {
+    #region Component References
     [SerializeField] private SpriteRenderer _spriteRenderer;
+    #endregion
 
+    #region Animation Data
     private Dictionary<string, SpriteAnimationNode> _spriteAnimNodes = new Dictionary<string, SpriteAnimationNode>();
     private string _defaultAnimationName;
-
     private string _currentAnimationName;
     private SpriteAnimationNode _currentAnimationNode;
-    private int _currentDirection;
-    private int _targetDirection;
+    #endregion
 
-    [SerializeField] private int _currentFrameIndex;
-    private bool _isOneShot;
-    [SerializeField] private bool _isAnimationPlaying;
-
+    #region Direction Variables
+    private Vector3 _targetVecDirection;
+    private Vector3 _currentVecDirection;
     private float _currentAngle;
+    private int _currentIndexDirection;
+    private int _targetIndexDirection;
+    #endregion
+
+    #region Frame and Playback Control
+    private int _currentFrameIndex;
+    private bool _isAnimationPlaying;
     private bool _isPause;
-
+    private bool _isOneShot;
     private uint _animationGeneration = 0;
+    #endregion
 
+    #region Cancellation Tokens
     private CancellationTokenSource _animationCts;
-
-    private void Update()
-    {
-
-    }
+    private CancellationTokenSource _directionCts;
+    #endregion
 
     private void OnDestroy()
     {
         _animationCts?.Cancel();
         _animationCts?.Dispose();
+        _animationCts = null;
+
+        _directionCts?.Cancel();
+        _directionCts?.Dispose();
+        _animationCts = null;
     }
 
-
-    #region 애니메이션 설정
-
+    #region Animation Setup
     //스프라이트 애니메이션  추가
-    public void AddSpriteAnimation(string name, bool loop, float rate, Sprite[][] sprites)
+    public void AddSpriteAnimation(string name, bool loop, float rate, Sprite[][] sprites, 
+                                   bool smoothDir = false, float rotSpeed = 800f)
     {
         if (_spriteAnimNodes.TryGetValue(name, out var node))
         {
@@ -53,7 +63,7 @@ public class CSpriteAnimation : MonoBehaviour
             return;
         }
 
-        node = new SpriteAnimationNode(sprites, loop, rate);
+        node = new SpriteAnimationNode(sprites, loop, rate, smoothDir, rotSpeed);
         _spriteAnimNodes.Add(name, node);
     }
 
@@ -69,6 +79,25 @@ public class CSpriteAnimation : MonoBehaviour
         }
         _defaultAnimationName = name;
         PlayAnimation(_defaultAnimationName);
+    }
+
+    //Current Animation 설정
+    //OneShot만 플레이할 경우 처음에 Current Node가 비어있을 수 있는 오류 방지
+    /// <summary>
+    /// Set to Current Animation but not playing
+    /// </summary>
+    public void SetCurrentAnimation(string name)
+    {
+        if (!_spriteAnimNodes.TryGetValue(name, out var node))
+        {
+#if UNITY_EDITOR
+            Debug.LogError($"Sprite Animation '{node}' is not assigned");
+#endif
+            return;
+        }
+
+        _currentAnimationName = name;
+        _currentAnimationNode = node;
     }
 
     //트랜지션 추가
@@ -146,8 +175,25 @@ public class CSpriteAnimation : MonoBehaviour
 
     #region Direction Handling
 
-    //다른 애니메이션으로의 방향 Index 변환
-    private void ConvertDirection(string newAnimationName)
+    //방향 설정
+    public void SetDirection(Vector3 dir)
+    {
+        if (_currentAnimationNode == null)
+        {
+#if UNITY_EDITOR
+            Debug.LogWarning("Current animation node is null. Cannot change direction.");
+#endif
+            return;
+        }
+
+        _targetVecDirection = dir;
+
+        if (!_currentAnimationNode.UseSmoothDirection)
+            ConvertVectorToIndexDirection(_targetVecDirection);
+    }
+
+    //Index -> Index 방향 전환
+    private void ConvertIndexToIndexDirection(string newAnimationName)
     {
         if (!_spriteAnimNodes.TryGetValue(newAnimationName, out SpriteAnimationNode newNode))
         {
@@ -159,8 +205,8 @@ public class CSpriteAnimation : MonoBehaviour
 
         if (_currentAnimationNode == null)
         {
-            _currentDirection = 0;
-            _targetDirection = 0;
+            _currentIndexDirection = 0;
+            _targetIndexDirection = 0;
             return;
         }
 
@@ -177,12 +223,12 @@ public class CSpriteAnimation : MonoBehaviour
         float newSegmentSize = 360f / newDirectionCount;
         int newDirection = Mathf.FloorToInt(_currentAngle / newSegmentSize) % newDirectionCount;
 
-        _currentDirection = newDirection;
-        _targetDirection = newDirection;
+        _currentIndexDirection = newDirection;
+        _targetIndexDirection = newDirection;
     }
-    
-    //방향 설정
-    public void SetDirection(Vector3 dir)
+
+    //Vector -> Index 방향 전환
+    private void ConvertVectorToIndexDirection(Vector3 dir)
     {
         if (_currentAnimationNode == null)
         {
@@ -192,7 +238,7 @@ public class CSpriteAnimation : MonoBehaviour
             return;
         }
 
-        if (dir == Vector3.zero) 
+        if (dir == Vector3.zero)
             return;
 
         Vector3 direction = dir.normalized;
@@ -200,21 +246,63 @@ public class CSpriteAnimation : MonoBehaviour
         if (_currentAngle < 0) _currentAngle += 360;
 
         float segmentSize = 360f / _currentAnimationNode.Sprites.Length;
-        _targetDirection = Mathf.FloorToInt(_currentAngle / segmentSize);
+        _targetIndexDirection = Mathf.FloorToInt(_currentAngle / segmentSize);
 
-        if(_targetDirection >= _currentAnimationNode.Sprites.Length)
+        if (_targetIndexDirection >= _currentAnimationNode.Sprites.Length)
         {
-            int overDirection = _targetDirection - _currentAnimationNode.Sprites.Length;
-            _targetDirection = overDirection;
+            int overDirection = _targetIndexDirection - _currentAnimationNode.Sprites.Length;
+            _targetIndexDirection = overDirection;
         }
 
-        _currentDirection = _targetDirection;
+        _currentIndexDirection = _targetIndexDirection;
+    }
+
+    //애니메이션 방향을 부드럽게 회전 UniTask
+    private async UniTaskVoid SmoothDirection()
+    {
+        _directionCts?.Cancel();
+        _directionCts = new CancellationTokenSource();
+        CancellationToken token = _directionCts.Token;
+
+        float rotSpeed = _currentAnimationNode.RotateSpeed;
+
+        while (!token.IsCancellationRequested)
+        {
+            float targetAngle = Mathf.Atan2(_targetVecDirection.y, _targetVecDirection.x) * Mathf.Rad2Deg;
+            float currentAngle = Mathf.Atan2(_currentVecDirection.y, _currentVecDirection.x) * Mathf.Rad2Deg;
+
+            float angleDiff = Mathf.DeltaAngle(currentAngle, targetAngle);
+            float step = rotSpeed * Time.deltaTime;
+            currentAngle += Mathf.Clamp(angleDiff, -step, step);
+
+            Vector2 rawDirection = new Vector2(
+                Mathf.Cos(currentAngle * Mathf.Deg2Rad),
+                Mathf.Sin(currentAngle * Mathf.Deg2Rad)
+            );
+
+            _currentVecDirection = rawDirection.sqrMagnitude > 0.01f ? rawDirection.normalized : Vector2.zero;
+            ConvertVectorToIndexDirection(_currentVecDirection);
+
+            await UniTask.Yield(PlayerLoopTiming.Update, token);
+        }
+    }
+
+    //부드럽게 회전 취소, 회전 중 바뀔수 있으니 target과 current각도 동일하게 설정
+    private void CancelSmoothDirection()
+    {
+        _directionCts?.Cancel();
+        _directionCts?.Dispose();
+        _directionCts = null;
+
+        _currentVecDirection = _targetVecDirection;
+        ConvertVectorToIndexDirection(_currentVecDirection);
     }
 
     #endregion
 
     #region Animation Playback
 
+    //애니메이션 재생 UniTask
     private async UniTaskVoid PlayAnimationAsync(string name, bool resetFrame = true)
     {
         if (!_spriteAnimNodes.TryGetValue(name, out var newNode))
@@ -237,7 +325,14 @@ public class CSpriteAnimation : MonoBehaviour
         if(resetFrame)
             _currentFrameIndex = 0;
 
-        ConvertDirection(name);
+        ConvertIndexToIndexDirection(name);
+
+        if (_currentAnimationNode.UseSmoothDirection)
+            SmoothDirection().Forget();
+        else
+            CancelSmoothDirection();
+
+
         _isAnimationPlaying = true;
 
         try
@@ -263,7 +358,7 @@ public class CSpriteAnimation : MonoBehaviour
 
                 try
                 {
-                    var sprite = _currentAnimationNode.Sprites[_currentDirection];
+                    var sprite = _currentAnimationNode.Sprites[_currentIndexDirection];
                     if (sprite == null)
                     {
                         Debug.Log("Sprite is null.");
@@ -271,10 +366,10 @@ public class CSpriteAnimation : MonoBehaviour
                 }
                 catch (IndexOutOfRangeException e)
                 {
-                    Debug.LogError($"IndexOutOfRangeException 발생: {_currentDirection}");
+                    Debug.LogError($"IndexOutOfRangeException 발생: {_currentIndexDirection}");
                 }
 
-                if (_currentFrameIndex >= _currentAnimationNode.Sprites[_currentDirection].Length)
+                if (_currentFrameIndex >= _currentAnimationNode.Sprites[_currentIndexDirection].Length)
                 {
                     CheckExitTimeTransitions();
 
@@ -303,6 +398,97 @@ public class CSpriteAnimation : MonoBehaviour
         }
     }
 
+    private async UniTaskVoid PlayOneShotAnimationAsync(string name, Vector3? dir = null)
+    {
+        if (!_spriteAnimNodes.TryGetValue(name, out var newNode))
+        {
+#if UNITY_EDITOR
+            Debug.LogError($"Animation {name} not found!");
+#endif
+            return;
+        }
+
+        uint currentGeneration = ++_animationGeneration;
+
+        _animationCts?.Cancel();
+        _animationCts = new CancellationTokenSource();
+        CancellationToken token = _animationCts.Token;
+
+        _currentAnimationName = name;
+        _currentAnimationNode = newNode;
+
+        _currentFrameIndex = 0;
+
+        Vector3 direction = dir ?? Vector3.zero;
+
+        if (direction == Vector3.zero)
+            ConvertIndexToIndexDirection(_currentAnimationName);
+        else
+            ConvertVectorToIndexDirection(direction);
+
+        _isOneShot = true;
+        _isAnimationPlaying = true;
+
+        try
+        {
+            while (!token.IsCancellationRequested)
+            {
+                //트랜지션 체크
+                ISpriteAnimTransition transition = GetTransition();
+                if (transition != null)
+                {
+                    PlayAnimation(transition.To);
+                    break;
+                }
+
+                UpdateSpriteFrame();
+
+                float delayPerFrame = 1f / _currentAnimationNode.FrameRate;
+                int delayMs = (int)(delayPerFrame * 1000);
+
+                await UniTask.Delay(delayMs, cancellationToken: token);
+
+                _currentFrameIndex++;
+
+                try
+                {
+                    var sprite = _currentAnimationNode.Sprites[_currentIndexDirection];
+                    if (sprite == null)
+                    {
+                        Debug.Log("Sprite is null.");
+                    }
+                }
+                catch (IndexOutOfRangeException e)
+                {
+                    Debug.LogError($"IndexOutOfRangeException 발생: {_currentIndexDirection}");
+                }
+
+                if (_currentFrameIndex >= _currentAnimationNode.Sprites[_currentIndexDirection].Length)
+                {
+                    CheckExitTimeTransitions();
+
+                    if (!_currentAnimationNode.IsLoop || _isOneShot)
+                        break;
+
+                    _currentFrameIndex = 0;
+                }
+            }
+        }
+        catch (OperationCanceledException)
+        {
+            //Do nothing
+        }
+        finally
+        {
+            if (currentGeneration == _animationGeneration)
+            {
+                _spriteRenderer.sprite = null;
+                _isOneShot = false;
+                _isAnimationPlaying = false;
+            }
+        }
+    }
+
     //애니메이션 재생
     public void PlayAnimation(string name, bool resetFrame = true)
     {
@@ -310,10 +496,20 @@ public class CSpriteAnimation : MonoBehaviour
     }
 
     //일회성 애니메이션 재생
-    public void PlayOneShotAnimation(string name)
+    public void PlayOneShotAnimation(string name, Vector3? dir = null)
     {
-        _isOneShot = true;
-        PlayAnimation(name);
+        PlayOneShotAnimationAsync(name, dir).Forget();
+    }
+
+    //애니메이션 정지
+    public void StopAnimation()
+    {
+        if (!_isAnimationPlaying)
+            return;
+
+        _isAnimationPlaying = false;
+        _animationCts?.Cancel();
+        _spriteRenderer.sprite = null;
     }
 
     //퍼즈
@@ -341,16 +537,16 @@ public class CSpriteAnimation : MonoBehaviour
     {
        
         if (_currentAnimationNode == null || !_isAnimationPlaying) return;
-        int currentDir = _currentDirection;
+        int currentDir = _currentIndexDirection;
         var sprites = _currentAnimationNode.Sprites[currentDir];
 
-//        if(_currentFrameIndex < 0 || _currentFrameIndex >= sprites.Length)
-//        {
-//#if UNITY_EDITOR
-//            Debug.LogError($"Invalid frame index: {_currentFrameIndex}");
-//#endif
-//            return;
-//        }
+        if(_currentFrameIndex < 0 || _currentFrameIndex >= sprites.Length)
+        {
+#if UNITY_EDITOR
+            Debug.LogError($"Invalid frame index: {_currentFrameIndex}");
+#endif
+            return;
+        }
 
         _spriteRenderer.sprite = sprites[_currentFrameIndex];
 
@@ -369,7 +565,9 @@ public class CSpriteAnimation : MonoBehaviour
     {
         public Sprite[][] Sprites { get; }
         public bool IsLoop { get; }
-        public float FrameRate { get; } //초당 프레임
+        public float FrameRate { get; }                 //초당 프레임
+        public bool UseSmoothDirection { get; }
+        public float RotateSpeed { get; }               //SmoothDIrection시 초당 회전각도
 
         private readonly HashSet<SpriteAnimTransition> _transitions;
         private readonly Dictionary<int, Action> _events;
@@ -377,13 +575,16 @@ public class CSpriteAnimation : MonoBehaviour
         public IReadOnlyCollection<SpriteAnimTransition> Transitions => _transitions;
         public IReadOnlyDictionary<int, Action> Events => _events;
 
-        public SpriteAnimationNode(Sprite[][] Sprites, bool loop, float frameRate)
+        public SpriteAnimationNode(Sprite[][] Sprites, bool loop, float frameRate, 
+                                   bool smoothDir = false, float rotSpeed = 800f)
         {
             this.Sprites = Sprites;
             this.IsLoop = loop;
             this._transitions = new HashSet<SpriteAnimTransition>();
             this._events = new Dictionary<int, Action>();
             this.FrameRate = frameRate;
+            this.UseSmoothDirection = smoothDir;
+            this.RotateSpeed = rotSpeed;
         }
 
         public void AddTransition(string to, bool hasExitTime, IStatePredicate condition = null)
@@ -396,9 +597,6 @@ public class CSpriteAnimation : MonoBehaviour
             _events.Add(frame, action);
         }
     }
-
     #endregion
-
-
 
 }

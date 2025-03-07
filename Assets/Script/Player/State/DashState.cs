@@ -35,7 +35,6 @@ public class DashState : BaseZagreusState
     {
         base.OnExit();
 
-        _zagreusAnimation.ResumeAnimation();
     }
 
     public DashState(CZagreusMovementController controller, CZagreusAnimation anim) : base(controller, anim)
