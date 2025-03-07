@@ -6,10 +6,20 @@ public class MoveState : BaseZagreusState
     {
         base.OnEnter();
 
+        switch (PreviousState)
+        {
+            case DashState dashState:
+                _zagreusAnimation.StopVFXAnimation();
+                break;
+            default:
+                break;
+        }
+
+        _zagreusAnimation.PlayAnimation("start");
+
 #if UNITY_EDITOR
         Debug.Log("Move State");
 #endif
-        _zagreusAnimation.PlayAnimation("start");
     }
 
     public override void Update()
